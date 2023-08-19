@@ -19,7 +19,6 @@ export default class moviesController{
             filters : filters,
             entriesPerPage: moviesPerPage,
             total_result: totalNumberMovies,
-            test :"rashed",
         }
         res.json(response)
     }
